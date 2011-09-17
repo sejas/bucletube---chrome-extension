@@ -1,0 +1,1 @@
+via:http://code.google.com/chrome/extensions/getstarted.html#load
