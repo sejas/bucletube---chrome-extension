@@ -1,1 +1,19 @@
+Autor: http://antonio.sejas.es
+Aplicacion: Bucletube for Google Chrome
+Descripcion: Es una extension que permite la reproducción de videos de youtube en bucle.
+URL: http://bucletube.es
+
+
+
+
+COMMIT:
+git add *
+git commit -m "comentario"
+git push -u origin master
+
+Bibliografia:
 via:http://code.google.com/chrome/extensions/getstarted.html#load
+
+
+
+
