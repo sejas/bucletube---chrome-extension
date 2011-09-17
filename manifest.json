@@ -1,0 +1,14 @@
+{
+  "name": "BucleTube",
+  "version": "0.2",
+  "background_page": "background.html",
+  "description": "Bucletube, Reproduce videos de youtube en bucle ;), una y otra vez.",
+  "browser_action": {
+    "default_icon": "logo-bucletube-p.png",
+    "name": "Reproduce videos de youtube en bucle.",
+    "default_title": "BucleTube.es | Reproduce videos de youtube en bucle."
+  },
+ "permissions": [
+   "tabs", "http://*/*"
+ ]
+}
