@@ -1,7 +1,6 @@
 {
   "name": "BucleTube",
   "version": "0.3",
-  "background": "background.html",
   "description": "Bucletube, Reproduce videos de youtube en bucle ;), una y otra vez.",
   "browser_action": {
     "default_icon": "logo-bucletube-p.png",
@@ -12,13 +11,9 @@
   "icons":{
     "128":"logo-bucletube-200.png"
   },
-  "content_scripts": [
-    {
-      "matches": ["http://*/*"],
-      "css": [],
-      "js": ["bucletube.js"]
-    }
-  ],
+  "background": {    
+      "scripts": ["bucletube.js"]
+    },
  "permissions": [
    "tabs", "http://*/*",
    "unlimitedStorage",
