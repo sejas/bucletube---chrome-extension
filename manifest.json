@@ -1,14 +1,28 @@
 {
   "name": "BucleTube",
-  "version": "0.2",
-  "background_page": "background.html",
+  "version": "0.3",
+  "background": "background.html",
   "description": "Bucletube, Reproduce videos de youtube en bucle ;), una y otra vez.",
   "browser_action": {
     "default_icon": "logo-bucletube-p.png",
     "name": "Reproduce videos de youtube en bucle.",
     "default_title": "BucleTube.es | Reproduce videos de youtube en bucle."
   },
+  "update_url": "http://bucletube.es/chrome-extension/updates.xml",
+  "icons":{
+    "128":"logo-bucletube-200.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*"],
+      "css": [],
+      "js": ["bucletube.js"]
+    }
+  ],
  "permissions": [
-   "tabs", "http://*/*"
- ]
+   "tabs", "http://*/*",
+   "unlimitedStorage",
+   "notifications"
+ ],
+ "manifest_version": 2
 }
